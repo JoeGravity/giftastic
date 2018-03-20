@@ -9,28 +9,20 @@
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
 </head>
 <body>
-    <div class="container">
-    <!-- form from working-movie-app-solved.html -->
 
-                <h1>Movie Search</h1>
+    <div class="container">
+                <h1>Topic Search</h1>
             
-                <!-- Movies will Get Dumped Dere -->
-                <div id="movies-view"></div>
-            
-                <!-- Rendered Buttons will get Dumped Here  -->
+                <!-- Rendered Buttons go here  -->
                 <div id="buttons-view"></div>
             
-                <form id="movie-form">
-                  <label for="movie-input">Add a Movie Bro</label>
-                  <input type="text" id="movie-input">
-                  <br>
-            
-                  <!-- Button triggers new movie to be added -->
-                  <input id="add-movie" type="submit" value="Add a Movie Bro">
+                <!-- form takes the value from a user input box and adds it to topics array.  -->
+                <form id="topic-form">
+                  <label for="topic-input">Add a Topic, Bro!</label>
+                  <input type="text" id="topic-input">            
+                  <!-- Button triggers new topic to be added -->
+                  <input id="add-topic" type="submit">
                 </form>
-
-    <!-- display from button-triggered-ajax-solution.html             -->
-
   
     <div id="gifs-appear-here">
     </div>
@@ -44,6 +36,6 @@
     crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="main.js"></script>
+        <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
